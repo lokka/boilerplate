@@ -1,4 +1,4 @@
 require 'bundler/setup'
-require 'lokka'
+Bundler.require(:default)
 use Lokka::Admin
 run Lokka::App
