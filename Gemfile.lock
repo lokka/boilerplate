@@ -8,6 +8,13 @@ PATH
       slim
       thin
 
+PATH
+  remote: ~/code/lokka-theme-vicuna
+  specs:
+    lokka-theme-vicuna (0.0.1)
+      sinatra
+      slim
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -67,3 +74,4 @@ PLATFORMS
 
 DEPENDENCIES
   lokka (~> 0.6.0)!
+  lokka-theme-vicuna (~> 0.0.1)!
